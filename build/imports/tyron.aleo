@@ -27,11 +27,11 @@ function init:
 
 finalize init:
     input r0 as address.public;
-    contains accounts[aleo1tve29pw8ze7kejtavwpwsv0jjmhrnp22ukgkfqv9x52c9kqelygsyhgjhh] into r1;
+    contains accounts[aleo13n2wtr5lctcqhu5lf5t8zmsq2xnhumdugdyvserwcujcgr5ehyzqll4urj] into r1;
     assert.eq r1 false;
     cast r0 0u8 into r2 as Account;
     set r2 into accounts[r0];
-    set r2 into accounts[aleo1tve29pw8ze7kejtavwpwsv0jjmhrnp22ukgkfqv9x52c9kqelygsyhgjhh];
+    set r2 into accounts[aleo13n2wtr5lctcqhu5lf5t8zmsq2xnhumdugdyvserwcujcgr5ehyzqll4urj];
 
 
 function is_signer:
