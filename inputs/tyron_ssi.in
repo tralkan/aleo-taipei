@@ -1,0 +1,14 @@
+// The program input for src/main.leo
+
+[add_guardian]
+guardian: address = aleo1xtu6awltnsh79zyw8tgdpdpk9mw9u0l0zly3y6mhsj9mafr5xyzsqk95dd;
+
+[social_recovery]
+guardian: Guardian = Guardian {
+  owner: aleo1tve29pw8ze7kejtavwpwsv0jjmhrnp22ukgkfqv9x52c9kqelygsyhgjhh,
+  signer: aleo1xtu6awltnsh79zyw8tgdpdpk9mw9u0l0zly3y6mhsj9mafr5xyzsqk95dd,
+  _nonce: 8104941056632192944478146571505271794125382547027702191016020040974500245870group
+};
+new_signer: Signer = Signer {
+  id: aleo1tve29pw8ze7kejtavwpwsv0jjmhrnp22ukgkfqv9x52c9kqelygsyhgjhh,
+};
