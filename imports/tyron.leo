@@ -25,7 +25,7 @@ program tyron.aleo {
     }
 
     finalize init(signer: address) {
-        let nonce: address = aleo1tve29pw8ze7kejtavwpwsv0jjmhrnp22ukgkfqv9x52c9kqelygsyhgjhh;
+        let nonce: address = aleo13n2wtr5lctcqhu5lf5t8zmsq2xnhumdugdyvserwcujcgr5ehyzqll4urj;
         let initialized: bool = Mapping::contains(accounts, nonce);
         assert_eq(initialized, false);
 
