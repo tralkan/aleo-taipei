@@ -15,7 +15,7 @@ In this repository, using the basic_bank.leo as an example, the goal is to use `
 Changing:
 
 ```bash
-assert_eq(self.caller, aleo1t0uer3jgtsgmx5tq6x6f9ecu8tr57rzzfnc2dgmcqldceal0ls9qf6st7a);
+assert_eq(self.caller, aleo13n2wtr5lctcqhu5lf5t8zmsq2xnhumdugdyvserwcujcgr5ehyzqll4urj);
 ```
 
 For:
