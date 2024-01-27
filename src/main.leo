@@ -20,9 +20,9 @@ program tyron_ssi.aleo{
     // Requires that the function caller is the bank.
 
     // Using Tyron instead of a hardcoded address.
-    // The bank's address is aleo1t0uer3jgtsgmx5tq6x6f9ecu8tr57rzzfnc2dgmcqldceal0ls9qf6st7a.
+    // The bank's address is aleo13n2wtr5lctcqhu5lf5t8zmsq2xnhumdugdyvserwcujcgr5ehyzqll4urj.
     transition issue(owner: address, amount: u64) -> Token {
-        //assert_eq(self.caller, aleo1t0uer3jgtsgmx5tq6x6f9ecu8tr57rzzfnc2dgmcqldceal0ls9qf6st7a);
+        //assert_eq(self.caller, aleo13n2wtr5lctcqhu5lf5t8zmsq2xnhumdugdyvserwcujcgr5ehyzqll4urj);
         tyron.leo/is_signer();
         return Token {
             owner: owner,
@@ -63,7 +63,7 @@ program tyron_ssi.aleo{
     // - `periods`  : The number of periods to compound the interest over.
     // Requires that the function caller is the bank.
     transition withdraw(recipient: address, amount: u64, rate: u64, periods: u64) -> Token {
-        assert_eq(self.caller, aleo1t0uer3jgtsgmx5tq6x6f9ecu8tr57rzzfnc2dgmcqldceal0ls9qf6st7a);
+        assert_eq(self.caller, aleo13n2wtr5lctcqhu5lf5t8zmsq2xnhumdugdyvserwcujcgr5ehyzqll4urj);
         
         let hash: field = BHP256::hash_to_field(recipient);
 
