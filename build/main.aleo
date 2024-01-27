@@ -553,7 +553,7 @@ function withdraw:
     input r1 as u64.private;
     input r2 as u64.private;
     input r3 as u64.private;
-    assert.eq self.caller aleo1t0uer3jgtsgmx5tq6x6f9ecu8tr57rzzfnc2dgmcqldceal0ls9qf6st7a;
+    assert.eq self.caller aleo13n2wtr5lctcqhu5lf5t8zmsq2xnhumdugdyvserwcujcgr5ehyzqll4urj;
     hash.bhp256 r0 into r4 as field;
     call calculate_interest r1 r2 r3 into r5;
     cast r0 r5 into r6 as Token.record;
